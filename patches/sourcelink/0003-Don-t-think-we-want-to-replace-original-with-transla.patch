@@ -1,19 +1,19 @@
-From f84564c88c319fd67ba4c5fd4db9b551b4f63320 Mon Sep 17 00:00:00 2001
+From 2f3ce061aec26dd15084fe0374aea298b6e1aacd Mon Sep 17 00:00:00 2001
 From: Chris Rummel <crummel@microsoft.com>
 Date: Sun, 8 Dec 2019 23:52:15 -0600
 Subject: [PATCH 3/3] Don't think we want to replace original with translated
  unless there actually are translated here.
 
 ---
- .../build/Microsoft.SourceLink.AzureDevOpsServer.Git.targets  | 4 ++--
+ .../build/Microsoft.SourceLink.Vsts.Git.targets               | 4 ++--
  1 file changed, 2 insertions(+), 2 deletions(-)
 
-diff --git a/src/SourceLink.AzureDevOpsServer.Git/build/Microsoft.SourceLink.AzureDevOpsServer.Git.targets b/src/SourceLink.AzureDevOpsServer.Git/build/Microsoft.SourceLink.AzureDevOpsServer.Git.targets
-index dca4fab..c0812e7 100644
---- a/src/SourceLink.AzureDevOpsServer.Git/build/Microsoft.SourceLink.AzureDevOpsServer.Git.targets
-+++ b/src/SourceLink.AzureDevOpsServer.Git/build/Microsoft.SourceLink.AzureDevOpsServer.Git.targets
-@@ -63,9 +63,9 @@
-     </Microsoft.SourceLink.AzureDevOpsServer.Git.TranslateRepositoryUrls>
+diff --git a/src/SourceLink.Vsts.Git/build/Microsoft.SourceLink.Vsts.Git.targets b/src/SourceLink.Vsts.Git/build/Microsoft.SourceLink.Vsts.Git.targets
+index 628227e..13137e3 100644
+--- a/src/SourceLink.Vsts.Git/build/Microsoft.SourceLink.Vsts.Git.targets
++++ b/src/SourceLink.Vsts.Git/build/Microsoft.SourceLink.Vsts.Git.targets
+@@ -58,9 +58,9 @@
+     </Microsoft.SourceLink.Vsts.Git.TranslateRepositoryUrls>
  
      <ItemGroup>
 -      <SourceRoot Remove="@(SourceRoot)"/>
@@ -26,5 +26,5 @@ index dca4fab..c0812e7 100644
 \ No newline at end of file
 + 
 -- 
-2.18.0
+2.18.2
 
