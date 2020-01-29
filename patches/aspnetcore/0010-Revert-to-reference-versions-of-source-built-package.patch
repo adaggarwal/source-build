@@ -1,4 +1,4 @@
-From 09320c4b8d4a9f54699cd73e7ce22a198e410065 Mon Sep 17 00:00:00 2001
+From 249873ff8b43063526c329817e66797cf39c77a8 Mon Sep 17 00:00:00 2001
 From: adaggarwal <aditya.aggarwal@microsoft.com>
 Date: Thu, 14 Nov 2019 21:06:36 +0000
 Subject: [PATCH 10/13] Revert to reference versions of source-built packages
@@ -31,5 +31,5 @@ index 68d4cd23fb..3cacb7d190 100644
  
    <ItemGroup Condition="'$(TargetFramework)' == 'net472'">
 -- 
-2.18.0
+2.18.2
 
