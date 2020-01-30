@@ -32,6 +32,11 @@
       <Sha>5558d18aafc84ecac3630ca6a31f52699cde0b66</Sha>
       <RepoName>coreclr</RepoName>
     </Dependency>
+    <Dependency Name="Microsoft.NETCore.Runtime.CoreCLR" Version="3.1.1-servicing.19607.1" CoherentParentDependency="Microsoft.Private.CoreFx.NETCoreApp">
+      <Uri>https://github.com/dotnet/coreclr</Uri>
+      <Sha>5558d18aafc84ecac3630ca6a31f52699cde0b66</Sha>
+      <RepoName>coreclr-portable</RepoName>
+    </Dependency>
     <Dependency Name="NETStandard.Library" Version="2.1.0" CoherentParentDependency="Microsoft.Dotnet.Sdk.Internal">
       <Uri>https://github.com/dotnet/standard</Uri>
       <Sha>a5b5f2e1e369972c8ff1e2183979fab6099f52ef</Sha>
@@ -41,10 +46,20 @@
       <Sha>17300169760c61a90cab8d913636c1058a30a8c1</Sha>
       <RepoName>corefx</RepoName>
     </Dependency>
+    <Dependency Name="Microsoft.Private.CoreFx.NETCoreApp" Version="4.7.0-servicing.19608.1" CoherentParentDependency="Microsoft.NETCore.App">
+      <Uri>https://github.com/dotnet/corefx</Uri>
+      <Sha>17300169760c61a90cab8d913636c1058a30a8c1</Sha>
+      <RepoName>corefx-portable</RepoName>
+    </Dependency>
     <Dependency Name="Microsoft.NETCore.App" Version="3.1.1-servicing.19608.4" CoherentParentDependency="Microsoft.Dotnet.Sdk.Internal">
       <Uri>https://github.com/dotnet/core-setup</Uri>
       <Sha>a1388f194c30cb21b36b75982962cb5e35954e4e</Sha>
       <RepoName>core-setup</RepoName>
+    </Dependency>
+    <Dependency Name="Microsoft.NETCore.App" Version="3.1.1-servicing.19608.4" CoherentParentDependency="Microsoft.Dotnet.Sdk.Internal">
+      <Uri>https://github.com/dotnet/core-setup</Uri>
+      <Sha>a1388f194c30cb21b36b75982962cb5e35954e4e</Sha>
+      <RepoName>core-setup-portable</RepoName>
     </Dependency>
     <Dependency Name="Microsoft.AspNetCore.Mvc.Razor.Extensions" Version="3.1.1" CoherentParentDependency="Microsoft.AspNetCore.App.Ref">
       <Uri>https://github.com/dotnet/AspNetCore-Tooling</Uri>
