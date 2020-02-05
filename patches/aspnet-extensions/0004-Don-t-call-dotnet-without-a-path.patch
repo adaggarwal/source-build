@@ -1,7 +1,7 @@
-From 1aa74e4340da230f5ce1996f89bd6f051c783823 Mon Sep 17 00:00:00 2001
+From 57669918952e097885a18ff3918838ffa3964b4e Mon Sep 17 00:00:00 2001
 From: Chris Rummel <crummel@microsoft.com>
 Date: Wed, 23 Oct 2019 18:56:04 -0500
-Subject: [PATCH 4/4] Don't call dotnet without a path
+Subject: [PATCH 4/5] Don't call dotnet without a path
 
 ---
  eng/common/tools.sh | 6 +++---
@@ -25,5 +25,5 @@ index 94965a8fd..8e14f8b6f 100755
      local toolset_dir="${_InitializeToolset%/*}"
      local logger_path="$toolset_dir/$_InitializeBuildToolFramework/Microsoft.DotNet.Arcade.Sdk.dll"
 -- 
-2.18.2
+2.21.0
 

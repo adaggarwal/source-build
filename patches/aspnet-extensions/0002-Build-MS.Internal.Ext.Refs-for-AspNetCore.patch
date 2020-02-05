@@ -1,7 +1,7 @@
-From 9f936f62b5f87385b5ac6ca9d421b8a1610d1de2 Mon Sep 17 00:00:00 2001
+From 97e5be799d2deb56eaf0c1e7cdd5453f218848b7 Mon Sep 17 00:00:00 2001
 From: adaggarwal <aditya.aggarwal@microsoft.com>
 Date: Wed, 13 Nov 2019 22:59:38 +0000
-Subject: [PATCH 2/4] Build MS.Internal.Ext.Refs for AspNetCore
+Subject: [PATCH 2/5] Build MS.Internal.Ext.Refs for AspNetCore
 
 ---
  .../ref/Microsoft.Internal.Extensions.Refs.csproj           | 6 +++---
@@ -35,5 +35,5 @@ index c89ec063a..952d69edc 100644
  
    <!-- Override the default MSBuild targets so that nothing is returned from the project since it represents a collection of assemblies. -->
 -- 
-2.18.2
+2.21.0
 
